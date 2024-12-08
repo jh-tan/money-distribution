@@ -1,12 +1,12 @@
 {
-  "name": "cynapse_challenge",
+  "name": "Money Random Distribution Service",
   "version": "1.0.0",
-  "description": "Project for cynapse coding challenge",
+  "description": "Money Random Distribution Service",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
-    "start": "npm run build && node dist/index.js",
-    "test": "jest --verbose"
+    "test": "jest --verbose",
+    "build": "npm test && tsc",
+    "start": "npm run build && node dist/index.js"
   },
   "author": "Jian Hui",
   "license": "ISC",
