@@ -2,7 +2,7 @@ function isValidRoundedAmount(amountStr: string): boolean {
   const roundedAmount = amountStr.split(".");
 
   if (roundedAmount.length === 1) return true;
-  const decimal = roundedAmount[1]
+  const decimal = roundedAmount[1];
 
   if (decimal.length <= 2) return true; 
   return false;
